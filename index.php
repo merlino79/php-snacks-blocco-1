@@ -12,32 +12,34 @@
   <?php
   $team = [
     [
-      'squadraCasa' => 'verona',
-      'squadraOspite' => 'milano',
+      'squadraCasa' => 'Fortitudo',
+      'squadraOspite' => 'Vanoli Basket Cremona',
       'puntiSquadraCasa' => 70,
       'puntiSquadraOspite' => 60,
       
      ],
       [
-      'squadraCasa' => 'caserta',
-      'squadraOspite' => 'lugano',
-      
-
-     
-      'puntiSquadraCasa' => 70,
+      'squadraCasa' => 'Germani Brescia',
+      'squadraOspite' => 'vitrus Bologna',
+       'puntiSquadraCasa' => 70,
       'puntiSquadraOspite' => 60,
-
-      
-    ]
+          
+      ],
+      [
+      'squadraCasa' => 'Carpegna Prosciutto Pesaro',
+      'squadraOspite' => 'Allianz Pallacanestro Trieste',
+       'puntiSquadraCasa' => 70,
+      'puntiSquadraOspite' => 60,
+          
+      ],
      
-    ,
+   
    
    
   ]
  ?> 
  </h2>
-
-  <ul>
+ <ul>
     <?php
     foreach ($team as $teams) {
     ?>
@@ -77,6 +79,14 @@
     }
     ?>
   </ul> 
+
+      
+
+     
+     
+  
+
+  
 
       
    
