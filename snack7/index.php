@@ -11,27 +11,31 @@
 
 <h1>snack7</h1>
 
-<?php
 
-  $students = [
-    [
-      'nome' => "sem",
-      'cognome' => "Verdi",
-      'voti' => [4,5,7,8,9] 
-    ],
-    [
-      'nome' => "tey",
-      'cognome' => "brambilla",
-      'voti' => [8,6,2,3,4] 
-    ],
-    [
-      'nome' => "marina",
-      'cognome' => "serenella",
-      'voti' => [8,5,7,10,6] 
-    ],
-  ];
-    var_dump($students)
+
+ <?php
+        $students = [
+          [
+            'lastName' => 'marco',
+            'surName' => 'serenello',
+            'voti' => [5,7,8,6,8,]
+          ],
+          [
+            'lastName' => 'serena',
+            'surName' => 'verdi',
+            'voti' => [5,7,8,4,7,9]
+          ],
+          
+        ];
+        var_dump($students)
+
 ?>
+
+
+
+
+
+
   
 </body>
 </html>
