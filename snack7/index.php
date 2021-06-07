@@ -18,35 +18,46 @@
           [
             'lastName' => 'marco',
             'surName' => 'serenello',
-            'voti' => [5,7,8,6,8,]
+            'voti' => [5,7,8,6,8,],
           ],
           [
             'lastName' => 'serena',
             'surName' => 'verdi',
-            'voti' => [5,7,8,4,7,9]
+            'voti' => [5,7,8,4,7,9],
           ],
           [
             'lastName' => 'sara',
             'surName' => 'brambilla',
-            'voti' => [5,7,8,4,7,9]
+            'voti' => [5,7,8,4,7,9],
           ],
           [
             'lastName' => 'franco ',
             'surName' => 'franchi',
-            'voti' => [5,7,8,4,7,9]
+            'voti' => [5,7,8,4,7,9],
           ],
           
           
         ];
-        var_dump($students)
+        // var_dump($students)
 
 ?>
 <ul>
 <?php foreach ($students as $studenti) {?>
 
   <li>
-  <?php echo $studenti['lastName']?>
+  <?php echo $studenti['lastName'] . ' ' . $studenti['surName']  ?>
+  
+  
   </li>
+
+  <ul>
+  <li>
+  voti: <?php print_r($studenti['voti'])?>
+  </li>
+    
+  </ul>
+  
+  
 
 
 <?php } ?>
