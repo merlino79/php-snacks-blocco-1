@@ -25,13 +25,22 @@
             'surName' => 'verdi',
             'voti' => [5,7,8,4,7,9]
           ],
+          [
+            'lastName' => 'sara',
+            'surName' => 'brambilla',
+            'voti' => [5,7,8,4,7,9]
+          ],
+          [
+            'lastName' => 'franco ',
+            'surName' => 'franchi',
+            'voti' => [5,7,8,4,7,9]
+          ],
+          
           
         ];
         var_dump($students)
 
 ?>
-
-
 
 
 
