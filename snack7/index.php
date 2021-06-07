@@ -41,6 +41,11 @@
         var_dump($students)
 
 ?>
+<?php
+foreach ($students as $studenti){
+  print_r($studenti['lastName']);
+}
+?>
 
 
 
