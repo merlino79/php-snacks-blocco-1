@@ -41,12 +41,16 @@
         var_dump($students)
 
 ?>
-<?php
-foreach ($students as $studenti){
-  print_r($studenti['lastName']);
-}
-?>
+<ul>
+<?php foreach ($students as $studenti) {?>
 
+  <li>
+  <?php echo $studenti['lastName']?>
+  </li>
+
+
+<?php } ?>
+</ul>
 
 
 
